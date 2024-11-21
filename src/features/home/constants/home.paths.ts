@@ -1,0 +1,17 @@
+export enum HomePathsEnum {
+  HOME = '/',
+  SHOP = '/shop',
+  PRODUCT = '/product',
+  PRODUCT_DETAIL = '/product/:slug',
+  BLOG = '/blog',
+  CONTACT = '/contact',
+  CART = '/cart',
+  ACCOUNT = '/account',
+  WISHLIST = '/wishlist',
+  PAYMENT = '/payment',
+  PAYMENT_SUCCESS = '/paymentSuccess',
+  PAYMENT_CANCEL = '/paymentCancel',
+  ORDER = '/order',
+  ABOUT_US = '/about-us',
+  RANDOM_ROUTE = '*',
+}
